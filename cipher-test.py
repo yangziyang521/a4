@@ -16,7 +16,7 @@ def test_encipher_hello():
 
 #test whether the program can ignore punctuations, still translating "HELLO" and using the same pad as before
 def test_encipher_hello_ignore():
-    assert encipher("GHIJKLMNOPQRSTUVWXYZ", "HE! &LLO") == "NLTUY"
+    assert encipher("GHIJKLMNOPQRSTUVWXYZ", "HE!&LLO") == "NL!&TUY"
 
 #test the decipher function:
 #test whether the program and translate back to the original word, still using the same pad and "HELLO"
@@ -25,4 +25,4 @@ def test_decipher_hello():
 
 #test whether the program and translate back to the original word and ignore punctuations, still using the same pad and "HELLO"
 def test_decipher_hello_ignore():
-    assert decipher("GHIJKLMNOPQRSTUVWXYZ", "NL! *TUY") == "HELLO"
+    assert decipher("GHIJKLMNOPQRSTUVWXYZ", "NL!&TUY") == "HE!&LLO"
