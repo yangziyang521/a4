@@ -1,0 +1,5 @@
+The good thing about this assignment was that my teamwork with Jessica went really well and we managed to figure out how to encipher and decipher the text. We cooperated on replit and the pair programming process went well.
+
+The bad thing about this assignment was that we spent quite a while debugging. We first managed to let our program decipher the text, but it did not produce a readable plain text. We then tried to figure out what went wrong. After consulting the Discord questions channel, we realized that we need to have an inner index for letters. After understanding what the problem was, the debugging process also went well. But we really spent a lot of time finding the problem.
+
+The better thing next time may be to consult the questions channel before trying to debug on our own. In this way we can foresee some problems and won't make similar mistakes.
